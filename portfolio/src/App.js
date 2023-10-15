@@ -1,10 +1,12 @@
 import React from 'react'
+import Home from './pages/Home'
 import './App.css'
+
 
 const App = () => {
   return (
     <div className="App">
-      <h1>It's working :0</h1>
+      <Home />
     </div>
   );
 }
