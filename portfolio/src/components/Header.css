@@ -1,6 +1,26 @@
-.header-div {
-    height: 5vh;
+.header-nav {
+    height: 6vh;
     width: 100%;
+    background-color: #031a25;
     display: flex;
     justify-content: space-around;
+}
+
+.fish-img {
+    height: 50px;
+    width: auto;
+    transition: 1s ease;
+    &:hover {
+        -webkit-transform: rotateZ(20deg);
+        -ms-transform: rotateZ(20deg);
+        transform: rotateZ(20deg);
+        transition: 1s ease;    
+    }
+}
+
+.head-link .head-nav-link{
+    color: #FFE0B2;
+    &:hover {
+        color: #FC9C04;
+    }
 }

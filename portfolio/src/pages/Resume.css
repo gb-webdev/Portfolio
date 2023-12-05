@@ -1,0 +1,7 @@
+.resume-div {
+    height: 90vh;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../assets/koi-2.gif');
+}

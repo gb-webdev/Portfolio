@@ -1,0 +1,10 @@
+.footer-div {
+    height: 5vh;
+    width: 100%;
+    background-color: #031a25;
+    color: #FFE0B2;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 1vh;
+}
