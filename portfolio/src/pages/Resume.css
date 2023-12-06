@@ -5,3 +5,29 @@
     background-repeat: no-repeat;
     background-image: url('../assets/koi-2.gif');
 }
+
+.qr-code {
+    height: 10vh;
+    width: 10vh
+}
+
+.resume-download {
+    height: 5vh;
+    width: 12vh;
+    color: #FFE0B2;
+    background-color: #031a25;
+    font-size: 3vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    quotes: auto;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    &:hover {
+        color: #FC9C04;
+        text-decoration: underline;
+        transform: scale(1.125);
+    }
+}
