@@ -4,4 +4,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../assets/koi.gif');
+    flex-direction: column;
+}
+
+.home-link {
+    color: #FFE0B2;
+        &:hover {
+            color: #FC9C04;
+        }
 }

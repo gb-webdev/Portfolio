@@ -9,37 +9,32 @@ const Header = () => {
     return (
        <Nav className='header-nav'>
 
-        <div>
-            <NavItem>
-                <NavLink to='/'>
-                    <img className='fish-img' src={fish} />
-                </NavLink>
-            </NavItem>
-        </div>
+            <div className='head-image'>
+                <NavItem>
+                    <NavLink to='/'>
+                        <img className='fish-img' src={fish} />
+                    </NavLink>
+                </NavItem>
+                <h2 className='header-name'>Graham Blundell</h2>
+            </div>
 
-        <div>
                 <NavItem className='head-link'>
                     <NavLink className='head-nav-link' to='/projects'>
                         <h2>Projects</h2>
                     </NavLink>    
                 </NavItem>
-        </div>
 
-        <div>
                 <NavItem className='head-link'>
                     <NavLink className='head-nav-link' to='/resume'>
                         <h2>Resume</h2>
                     </NavLink>
                 </NavItem>
-        </div>
-            
-        <div>
+
                 <NavItem className='head-link'>
                     <NavLink className='head-nav-link' to='about'>
-                        <h2>About me</h2>
+                        <h2>Contact me</h2>
                     </NavLink>
                 </NavItem>
-        </div>
 
        </Nav> 
     )
