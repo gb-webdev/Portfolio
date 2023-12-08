@@ -1,4 +1,5 @@
 import React from 'react'
+import transition from '../pages/transition'
 import './Resume.css'
 import QR from '../assets/resume-QRCode.png'
 
@@ -14,4 +15,4 @@ const Resume = () => {
     )
 }
 
-export default Resume
+export default transition(Resume)
