@@ -1,9 +1,13 @@
 .about-div-wrap {
     height: 90vh;
     display: flex;
+    flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../assets/raindrop.gif');
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-div {
@@ -13,4 +17,52 @@
     display: flex;
     flex-direction: column;
     border-radius: 15px;
+}
+
+.about-div-tools {
+    height: fit-content;
+    width: fit-content;
+    background-color: #031a25cc;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+.contact-div {
+    height: fit-content;
+    width: fit-content;
+    background-color: #031a25cc;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.h1-contact {
+    height: fit-content;
+    width: fit-content;
+    background-color: #031a25cc;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+}
+
+.learn-link {
+    color: #FFE0B2;
+    &:hover {
+        color: #FC9C04;
+    }
+}
+
+.icon {
+    width: 10vh;
+    height: 10vh;
+}
+
+.icon-1 {
+    width: 11vh;
+    height: 11vh;
+}
+
+.icon-2 {
+    width: 12vh;
+    height: 12vh;
 }
