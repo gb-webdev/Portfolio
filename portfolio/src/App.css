@@ -4,3 +4,23 @@
     font-family: 'VT323', monospace;
     color: #FFE0B2;
 }
+
+.slide-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #031a25;
+    transform-origin: bottom;
+}
+
+.slide-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #031a25;
+    transform-origin: top;
+}

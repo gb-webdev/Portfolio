@@ -1,4 +1,5 @@
 import React from 'react'
+import transition from '../pages/transition'
 import './AboutMe.css'
 
 const AboutMe = () => {
@@ -9,4 +10,4 @@ const AboutMe = () => {
     )
 }
 
-export default AboutMe
+export default transition(AboutMe)

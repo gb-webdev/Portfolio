@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { NavItem } from 'reactstrap'
 import './NotFound.css'
+import transition from '../pages/transition'
 
 const NotFound = () => {
     return ( 
@@ -11,4 +12,4 @@ const NotFound = () => {
     )
 }
 
-export default NotFound
+export default transition(NotFound)

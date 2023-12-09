@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import { NavItem } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
+import transition from '../pages/transition'
 
 const Home = () => {
     return (
@@ -15,4 +16,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default transition(Home)

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css'
+import transition from '../pages/transition'
 import quizard from '../assets/quizard-homescreen.png'
 import lizard from '../assets/pixel-liz.png'
 
@@ -14,4 +15,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default transition(Projects)
