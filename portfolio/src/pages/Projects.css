@@ -1,7 +1,28 @@
-.projects-div {
+.projects-div-wrap {
     height: 90vh;
     display: flex;
+    flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../assets/crane.gif');
+}
+
+.projects-div {
+    height: fit-content;
+    width: fit-content;
+    background-color: #031a25cc;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.quizard {
+    height: 15vh;
+    width: 15vh;
+    transform: scale(1);
+    transition: 0.4s ease;
+     &:hover {
+        transform: scale(1.1);
+        transition: 0.4s ease;
+     }
 }

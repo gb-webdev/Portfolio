@@ -1,9 +1,18 @@
-.resume-div {
+.resume-div-wrap {
     height: 90vh;
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../assets/koi-2.gif');
+}
+
+.resume-div {
+    height: fit-content;
+    width: fit-content;
+    background-color: #031a25cc;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
 }
 
 .qr-code {
