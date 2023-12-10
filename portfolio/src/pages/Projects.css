@@ -29,3 +29,25 @@
         transition: 0.4s ease;
      }
 }
+
+.quizard-git-front {
+    width: 12vh;
+    height: 12vh;
+    transform: scale(1.03);
+    transition: 0.4s ease;
+     &:hover {
+        transform: scale(1.13);
+        transition: 0.4s ease;
+     }
+}
+
+.quizard-git-back {
+    width: 12vh;
+    height: 12vh;
+    transform: scale(1.03);
+    transition: 0.4s ease;
+     &:hover {
+        transform: scale(1.13);
+        transition: 0.4s ease;
+     }
+}

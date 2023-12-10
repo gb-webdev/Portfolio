@@ -47,8 +47,8 @@ const AboutMe = () => {
                 <h2>Contact me:</h2>
             </div>    
             <div className='contact-div'>
-                <img className='icon-1' src={linkedin} />
-                <img className='icon-2' src={gitlogo} />
+                <a href='https://www.linkedin.com/in/graham-blundell/' target='blank'><img className='icon-1' src={linkedin} /></a>
+                <a href='https://github.com/gb-webdev' target='blank'><img className='icon-2' src={gitlogo} /></a>
             </div>
         </div>
     )
