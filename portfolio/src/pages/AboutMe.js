@@ -23,9 +23,9 @@ const AboutMe = () => {
     return (
         <div className='about-div-wrap'>
             <div className='about-div'>
-                <h1>Hi! Thanks for making it this far! I graduated from <a className='learn-link' href='https://learnacademy.org/coding-bootcamp' target='blank'>LEARN Academy</a> in 2023 (Echo Cohort) for Full-Stack Web Development. I also have an associates degree in Science.</h1>
-                <h1>Other than coding, I'm a huge gamer and like to spend my spare time playing games (video or board games).</h1>
-                <h1>My Toolkit</h1>
+                <h2>Hi! Thanks for making it this far! I graduated from <a className='learn-link' href='https://learnacademy.org/coding-bootcamp' target='blank'>LEARN Academy</a> in 2023 (Echo Cohort) for Full-Stack Web Development. I also have an associates degree in Science.</h2>
+                <h2>Other than coding, I'm a huge gamer and like to spend my spare time playing games (video or board games).</h2>
+                <h2>My Toolkit:</h2>
             </div>
             <div className='about-div-tools'>
                 <img className='icon' src={js} />
@@ -43,8 +43,8 @@ const AboutMe = () => {
                 <img className='icon' src={git} />
                 <img className='icon' src={vscode} />
             </div>
-            <div className='h1-contact'>
-                <h1>Contact me</h1>
+            <div className='h2-contact'>
+                <h2>Contact me:</h2>
             </div>    
             <div className='contact-div'>
                 <img className='icon-1' src={linkedin} />

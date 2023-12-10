@@ -8,11 +8,11 @@ const Home = () => {
     return (
         <div className='home-div-wrap'>
             <div className='home-div'>
-                <h1>Hi, I'm Graham! Welcome to my Portfolio</h1>
-                <h1>I'm a full stack web web developer in San Diego, CA</h1>
-                <NavItem><h1>See my projects <NavLink className='home-link' to='projects'>here</NavLink></h1></NavItem>
-                <NavItem><h1>View/download my resume <NavLink className='home-link' to='resume'>here</NavLink></h1></NavItem>
-                <NavItem><h1>Contact me <NavLink className='home-link' to='about'>here</NavLink></h1></NavItem>
+                <h2>Hi, I'm Graham! Welcome to my Portfolio</h2>
+                <h2>I'm a full stack web web developer in San Diego, CA</h2>
+                <NavItem><h2>See my projects <NavLink className='home-link' to='projects'>here</NavLink></h2></NavItem>
+                <NavItem><h2>View/download my resume <NavLink className='home-link' to='resume'>here</NavLink></h2></NavItem>
+                <NavItem><h2>Contact me <NavLink className='home-link' to='about'>here</NavLink></h2></NavItem>
             </div>
         </div>
     )

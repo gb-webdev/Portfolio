@@ -3,5 +3,22 @@
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../assets/frog.gif');
+    background-image: url('../assets/raindrop.gif');
+    flex-direction: row;
+}
+
+.not-found-text {
+    height: fit-content;
+    width: fit-content;
+    background-color: #031a25cc;
+    display: flex;
+    border-radius: 15px;
+    padding: 1vh;
+}
+
+.not-found-link {
+    color: #FFE0B2;
+    &:hover {
+        color: #FC9C04;
+    }
 }

@@ -4,6 +4,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../assets/koi-2.gif');
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .resume-div {
@@ -11,22 +15,53 @@
     width: fit-content;
     background-color: #031a25cc;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border-radius: 15px;
+    align-items: center;
+    justify-content: center;
 }
 
+.resume-text {
+    height: fit-content;
+    width: fit-content;
+    background-color: #031a25cc;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+}
+.resume-actions {
+    height: fit-content;
+    width: fit-content;
+    background-color: #031a25cc;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65%;
+    margin-right: auto;
+    padding: 1vh;
+}
+
+
+
 .qr-code {
-    height: 10vh;
-    width: 10vh
+    height: 15vh;
+    width: 15vh;
+    margin-right: 2vh;
 }
 
 .resume-download {
-    height: 5vh;
-    width: 12vh;
+    height: 8vh;
+    width: 20vh;
     color: #FFE0B2;
     background-color: #031a25;
-    font-size: 3vh;
+    font-size: 4vh;
     border-radius: 10px;
+    margin-left: 2vh;
     box-sizing: border-box;
     cursor: pointer;
     quotes: auto;
