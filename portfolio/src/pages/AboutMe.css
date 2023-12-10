@@ -66,9 +66,22 @@
 .icon-1 {
     width: 11vh;
     height: 11vh;
+    transform: scale(1);
+    margin-top: 0.5vh;
+    transition: 0.4s ease;
+     &:hover {
+        transform: scale(1.1);
+        transition: 0.4s ease;
+     }
 }
 
 .icon-2 {
     width: 12vh;
     height: 12vh;
+    transform: scale(1.03);
+    transition: 0.4s ease;
+     &:hover {
+        transform: scale(1.13);
+        transition: 0.4s ease;
+     }
 }
