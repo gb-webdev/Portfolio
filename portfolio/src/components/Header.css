@@ -30,6 +30,10 @@
     }
 }
 
+.head-link {
+    padding-top: 0.8vh;
+}
+
 .head-link .head-nav-link{
     color: #FFE0B2;
     &:hover {

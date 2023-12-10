@@ -20,19 +20,19 @@ const Header = () => {
 
                 <NavItem className='head-link'>
                     <NavLink className='head-nav-link' to='/projects'>
-                        <h2>Projects</h2>
+                        <h4>Projects</h4>
                     </NavLink>    
                 </NavItem>
 
                 <NavItem className='head-link'>
                     <NavLink className='head-nav-link' to='/resume'>
-                        <h2>Resume</h2>
+                        <h4>Resume</h4>
                     </NavLink>
                 </NavItem>
 
                 <NavItem className='head-link'>
                     <NavLink className='head-nav-link' to='about'>
-                        <h2>Contact me</h2>
+                        <h4>Contact me</h4>
                     </NavLink>
                 </NavItem>
 
