@@ -1,24 +1,14 @@
 .resume-div-wrap {
     height: 90vh;
+    width: 100vw;
     display: flex;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../assets/koi-2.gif');
-    text-align: center;
-    justify-content: center;
     flex-direction: column;
-    align-items: flex-end;
-}
-
-.resume-div {
-    height: fit-content;
-    width: fit-content;
-    background-color: #031a25cc;
-    display: flex;
-    flex-direction: row;
-    border-radius: 15px;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url('../assets/koi-2.gif');
 }
 
 .resume-text {
@@ -26,12 +16,11 @@
     width: fit-content;
     background-color: #031a25cc;
     display: flex;
-    align-items: flex-end;
     border-radius: 15px;
-    align-items: center;
-    justify-content: center;
     padding: 1vh;
 }
+
+
 .resume-actions {
     height: fit-content;
     width: fit-content;
@@ -41,9 +30,9 @@
     border-radius: 15px;
     align-items: center;
     justify-content: center;
-    margin-left: 65%;
     margin-right: auto;
-    padding: 1vh;
+    margin-left: auto;
+    padding: 2vh;
 }
 
 
@@ -73,5 +62,35 @@
         color: #FC9C04;
         text-decoration: underline;
         transform: scale(1.125);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .resume-div-wrap {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 601px) { 
+    .resume-div-wrap {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .resume-div-wrap {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .resume-div-wrap {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .resume-div-wrap {
+        width: 100%
     }
 }
