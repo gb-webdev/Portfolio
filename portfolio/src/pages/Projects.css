@@ -2,11 +2,12 @@
     height: 90vh;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../assets/crane.gif');
-    text-align: center;
-    justify-content: center;
 }
 
 .projects-div {
@@ -15,6 +16,8 @@
     background-color: #031a25cc;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
     border-radius: 15px;
     padding: 1vh;
 }
@@ -50,4 +53,34 @@
         transform: scale(1.13);
         transition: 0.4s ease;
      }
+}
+
+@media only screen and (max-width: 600px) {
+    .projects-div-wrap {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 601px) { 
+    .projects-div-wrap {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .projects-div-wrap {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .projects-div-wrap {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .projects-div-wrap {
+        width: 100%
+    }
 }

@@ -1,16 +1,27 @@
 .found-div {
     height: 90vh;
     display: flex;
+    flex-wrap: wrap;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../assets/raindrop.gif');
     flex-direction: row;
+    background-size: cover;
+    justify-content: center;
+}
+
+.found-nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
 }
 
 .not-found-text {
     height: fit-content;
     width: fit-content;
-    background-color: #031a25cc;
+    background-color: #031a25;
     display: flex;
     border-radius: 15px;
     padding: 1vh;
@@ -20,5 +31,35 @@
     color: #FFE0B2;
     &:hover {
         color: #FC9C04;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .found-div {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .found-div {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .found-div {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .found-div {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .found-div {
+        width: 100%;
     }
 }
