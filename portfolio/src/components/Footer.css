@@ -1,9 +1,10 @@
 .footer-div {
-    height: 5vh;
+    height: 100%;
     width: 100%;
     background-color: #031a25;
     color: #FFE0B2;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-end;
     padding-left: 0.5%;

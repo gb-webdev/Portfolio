@@ -7,7 +7,7 @@ const Resume = () => {
     return (
         <div className='resume-div-wrap'>
             <div className='resume-text'>
-                <h2>Expand my resume to read, use the QR Code or download</h2>
+                <h2>View my resume with the QR Code. Or view/download with the download button</h2>
             </div>
             <div className='resume-actions'>
                 <img className='qr-code' src={QR} />
