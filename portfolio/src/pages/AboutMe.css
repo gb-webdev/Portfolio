@@ -34,7 +34,8 @@
     border-radius: 15px;
     padding: 1vh;
 }
-.contact-div {
+
+.h2-contact {
     height: fit-content;
     width: fit-content;
     background-color: #031a25cc;
@@ -44,7 +45,7 @@
     padding: 1vh;
 }
 
-.h2-contact {
+.contact-div {
     height: fit-content;
     width: fit-content;
     background-color: #031a25cc;
@@ -89,6 +90,17 @@
      }
 }
 
+.icon-3 {
+    width: 12vh;
+    height: 12vh;
+    transform: scale(1.03);
+    transition: 0.4s ease;
+     &:hover {
+        transform: scale(1.13);
+        transition: 0.4s ease;
+     }
+}
+
 @media only screen and (max-width: 600px) {
     .about-div-wrap {
         .icon {
@@ -97,6 +109,7 @@
         }
         width: 100%;
         object-fit: contain;
+        overflow: scroll;
     }
 }
 
