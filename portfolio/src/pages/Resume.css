@@ -44,13 +44,13 @@
 }
 
 .resume-download {
-    height: 8vh;
-    width: 20vh;
+    height: auto;
+    width: auto;
     color: #FFE0B2;
     background-color: #031a25;
     font-size: 4vh;
     border-radius: 10px;
-    margin-left: 2vh;
+    padding: 4%;
     box-sizing: border-box;
     cursor: pointer;
     quotes: auto;
