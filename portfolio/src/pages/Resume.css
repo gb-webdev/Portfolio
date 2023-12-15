@@ -1,11 +1,13 @@
 .resume-div-wrap {
-    height: 90vh;
-    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-size: cover;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     background-image: url('../assets/koi-2.gif');
@@ -44,13 +46,13 @@
 }
 
 .resume-download {
-    height: 8vh;
-    width: 20vh;
+    height: auto;
+    width: auto;
     color: #FFE0B2;
     background-color: #031a25;
     font-size: 4vh;
     border-radius: 10px;
-    margin-left: 2vh;
+    padding: 4%;
     box-sizing: border-box;
     cursor: pointer;
     quotes: auto;

@@ -1,14 +1,16 @@
 .about-div-wrap {
-    height: 90vh;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-image: url('../assets/frog.gif');
     text-align: center;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 }
 
 .about-div {
@@ -90,15 +92,59 @@
      }
 }
 
-.icon-3 {
-    width: 12vh;
-    height: 12vh;
-    transform: scale(1.03);
-    transition: 0.4s ease;
-     &:hover {
-        transform: scale(1.13);
-        transition: 0.4s ease;
-     }
+.email.form {
+    background-color: #031a25cc;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form {
+    width: 50vw;
+    height: 5vh;
+    background-color: #031a25cc;
+    color: #FFE0B2;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form-txt {
+    width: 50vw;
+    height: 40vh;
+    background-color: #031a25cc;
+    color: #FFE0B2;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-button {
+    height: auto;
+    width: auto;
+    text-align: center;
+    vertical-align: auto;
+    padding: 2%;
+    color: #FFE0B2;
+    background-color: #031a25;
+    font-size: 4vh;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    cursor: pointer;
+    quotes: auto;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    &:hover {
+        color: #FC9C04;
+        text-decoration: underline;
+        transform: scale(1.125);
+    }
+}
+
+::placeholder  {
+    color: #FFE0B2;
 }
 
 @media only screen and (max-width: 600px) {
