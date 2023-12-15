@@ -1,11 +1,14 @@
 .projects-div-wrap {
-    height: 90vh;
+    min-height: 100vh;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-image: url('../assets/crane.gif');
 }
@@ -31,6 +34,26 @@
         transform: scale(1.1);
         transition: 0.4s ease;
      }
+}
+
+.project-1-hover {
+    max-width: 70vh;
+    transform: scaleY(0);
+    transform-origin: middle;
+    transition: transform 0.7s ease;
+}
+  
+.project-1:hover .project-1-hover {
+    max-width: 70vh;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+    background-color: #031a25cc;
+    border-radius: 15px;
+    padding: 2%;
+    transform: scaleY(1);
+    transform-origin: middle;
 }
 
 .quizard-git-front {
