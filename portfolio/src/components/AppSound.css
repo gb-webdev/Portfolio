@@ -1,0 +1,48 @@
+.sound-button {
+    height: fit-content;
+    width: fit-content;
+    color: #FFE0B2;
+    background-color: #031a25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: larger;
+    padding-right: 0.1%;
+}
+
+.sound-image {
+    height: 2.5vh;
+    width: auto;
+    max-width: 8vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .sound-wrap {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .sound-wrap {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .sound-wrap {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .sound-wrap {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sound-wrap {
+        width: 100%;
+    }
+}
