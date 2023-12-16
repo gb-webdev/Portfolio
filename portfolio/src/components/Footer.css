@@ -4,9 +4,8 @@
     background-color: #031a25;
     color: #FFE0B2;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 0.5%;
 }
 
