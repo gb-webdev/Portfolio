@@ -1,15 +1,30 @@
 import React, { useState } from 'react'
 import fish from '../assets/fish.png'
+import git from '../assets/11-git.png'
 import './Header.css'
 
 
 const Header = () => {
+
+    const [menuOpen, setmenuOpen] = useState(false)
+
     return (
         <nav className='header-nav'>
             <a className='header-title' href='/'>Portfolio</a>
             <div className='menu'>
-                <img className='nav-img' src={fish} alt='PIC OF A FISH' />
-                <ul className='header-nav-items'>
+                <img
+                    className='menu-btn'
+                    src={
+                        menuOpen
+                            ? git
+                            : fish
+                        }
+                    alt='Menu button' 
+                    onClick={() => setmenuOpen(!menuOpen)}
+                />
+                <ul className={`header-nav-items ${menuOpen && 'menuOpen'}`}
+                onClick={() => setmenuOpen(false)}
+                >
                     <li>
                         <a className='about' href='#about'>About</a>
                     </li>
