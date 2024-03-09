@@ -11,8 +11,8 @@ const Avatar = () => {
                 <a className='avatar-contact'>Contact me here</a>
             </div>
             <img className='avatar-img' src={avatarImage} alt='an Avatar of me'/>
-            <div className='Avatar-topBlur ' />
-            <div className='Avatar-bottomBlur ' />
+            <div className='avatar-topBlur ' />
+            <div className='avatar-bottomBlur ' />
         </section>
     )
 }
