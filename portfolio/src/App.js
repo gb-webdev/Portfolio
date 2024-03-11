@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import Avatar from './pages/Avatar'
 import AboutMe from './pages/AboutMe'
+import Experience from './pages/Experience'
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <Avatar />
       <AboutMe />
+      <Experience />
     </div>
   )
 }
