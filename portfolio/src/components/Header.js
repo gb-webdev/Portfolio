@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import menu from '../assets/menu.png'
-import fish from '../assets/fish.png'
+import menuO from '../assets/menu-open.png'
 import './Header.css'
 
 
@@ -16,7 +16,7 @@ const Header = () => {
                     className='menu-btn'
                     src={
                         menuOpen
-                            ? fish
+                            ? menuO
                             : menu
                         }
                     alt='Menu button' 
