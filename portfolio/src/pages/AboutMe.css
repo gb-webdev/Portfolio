@@ -24,7 +24,8 @@
 }
 
 .about-icon {
-    width: 35px;
+    width: 100px;
+    padding-right: 5px;
 }
 
 .about-items {
