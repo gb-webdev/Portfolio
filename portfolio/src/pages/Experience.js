@@ -18,8 +18,6 @@ const Experience = () => {
                         <li className='skill'><img className='xp-img' src={reactImg} /></li>
                         <li className='skill'><img className='xp-img' src={ruby} /></li>
                         <li className='skill'><img className='xp-img2' src={rails} /></li>
-                    </ul>
-                    <ul className='skill-list'>
                         <li className='skill'><img className='xp-img' src={jest} /></li>
                         <li className='skill'><img className='xp-img' src={rspec} /></li>
                         <li className='skill'><img className='xp-img' src={postgres} /></li>
