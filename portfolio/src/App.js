@@ -5,6 +5,7 @@ import Avatar from './pages/Avatar'
 import AboutMe from './pages/AboutMe'
 import Experience from './pages/Experience'
 import Projects from './pages/Projects'
+import Contact from './pages/Contact'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <AboutMe />
       <Experience />
       <Projects />
+      <Contact />
     </div>
   )
 }
