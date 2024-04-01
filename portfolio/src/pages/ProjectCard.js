@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import quizStill from '../assets/quiz-still.png'
 import quizGif from '../assets/quiz.gif'
 import apartmentStill from '../assets/apartment-still.png'
@@ -8,12 +8,29 @@ import bladeBrawlerGif from '../assets/blade-brawler.gif'
 import './ProjectCard.css'
 
 const ProjectCard = () => {
+
+    const [over, setOver] = useState([false, false, false])
+
+    const handleMouseEnter = (index) => {
+        const newOver = [...over]
+        newOver[index] = true
+        setOver(newOver)
+    }
+
+    const handleMouseLeave = (index) => {
+        const newOver = [...over]
+        newOver[index] = false
+        setOver(newOver)
+    }
+
     return (
         <div className='card-container'>
             <div className='card'>
                 <img
                     className='proj-img'
-                    src={bladeBrawlerStill}
+                    src={over[0] ? bladeBrawlerGif : bladeBrawlerStill}
+                    onMouseEnter={() => handleMouseEnter(0)}
+                    onMouseLeave={() => handleMouseLeave(0)}
                     alt='Image of the Blade Brawler application'   
                 />
                 <h3 className='card-title'>Blade Brawler</h3>
@@ -30,7 +47,9 @@ const ProjectCard = () => {
             <div className='card'>
                 <img
                     className='proj-img'
-                    src={quizStill}
+                    src={over[1] ? quizGif : quizStill}
+                    onMouseEnter={() => handleMouseEnter(1)}
+                    onMouseLeave={() => handleMouseLeave(1)}
                     alt='Image of the Quizard application'   
                 />
                 <h3 className='card-title'>Quizard</h3>
@@ -50,7 +69,9 @@ const ProjectCard = () => {
             <div className='card'>
                 <img
                     className='proj-img'
-                    src={apartmentStill}
+                    src={over[2] ? apartmentGif : apartmentStill}
+                    onMouseEnter={() => handleMouseEnter(2)}
+                    onMouseLeave={() => handleMouseLeave(2)}
                     alt='Image of the apartment application'   
                 />
                 <h3 className='card-title'>Apartment Finder</h3>
