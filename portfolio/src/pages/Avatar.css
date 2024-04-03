@@ -105,12 +105,12 @@
 
 .avatar-topBlur {
     position: absolute;
-    width: 50vw;
-    height: 50vh;
+    width: 55vw;
+    height: 60vh;
     min-width: 350px;
     min-width: 350px;
-    top: -128px;
-    left: 10vw;
+    top: -138px;
+    left: 20vw;
     border-radius: 764px;
     background: rgba(68, 108, 182, 0.7);
     filter: blur(100px);
@@ -119,12 +119,12 @@
 
 .avatar-bottomBlur {
     position: absolute;
-    width: 70vw;
+    width: 55vw;
     height: 50vh;
     min-width: 350px;
     min-width: 250px;
-    top: 246px;
-    right: -25vw;
+    top: 150px;
+    right: 25vw;
     border-radius: 764px;
     background: rgba(68, 108, 182, 0.7);
     filter: blur(100px);

@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import quizStill from '../assets/quiz-still.png'
-import quizGif from '../assets/quiz.gif'
-import apartmentStill from '../assets/apartment-still.png'
-import apartmentGif from '../assets/apartment.gif'
-import bladeBrawlerStill from '../assets/blade-brawler-still.png'
-import bladeBrawlerGif from '../assets/blade-brawler.gif'
+import quizStill from '../assets/qzss.png'
+import quizGif from '../assets/qz.gif'
+import apartmentStill from '../assets/apss.png'
+import apartmentGif from '../assets/ap.gif'
+import bladeBrawlerStill from '../assets/bbss.png'
+import bladeBrawlerGif from '../assets/samurai.gif'
 import './ProjectCard.css'
 
 const ProjectCard = () => {
