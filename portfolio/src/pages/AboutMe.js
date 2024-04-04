@@ -2,35 +2,42 @@ import React from 'react'
 import './AboutMe.css'
 import codingImg from '../assets/coding.png'
 import debug from '../assets/debug.png'
-import cdeImg from '../assets/coding (1).png'
+import cdeImg from '../assets/coding2.png'
 import error from '../assets/error.png'
+import qrCode from '../assets/resume-QRCode.png'
 
 const AboutMe = () => {
     return (
         <section className='about-container' id='about'>
-        <h2 className='about-title'>About</h2>
+        <h2 className='about-title'>Experience</h2>
             <div className='about-content'>
-                <img className='about-avatar' src={codingImg} alt='avatar with a laptop' />
                 <ul className='about-items'>
                     <li className='about-item'>
-                    <img className='about-icon' src={debug}></img>                        <div className='about-text'>
-                            <h3>front-end</h3>
-                            <p>React, designing, ui/ux</p>
+                    <img className='about-icon' src={error}></img>                        <div className='about-text'>
+                            <h3>Scientist.com</h3>
+                            <h4>Software Developer Intern</h4>
+                            <p>Ruby on Rails | RSpec | Refactoring | Testing | Debugging | FactoryBot</p>
                         </div>
                     </li>  
                     <li className='about-item'>
                         <img className='about-icon' src={cdeImg}></img>
                         <div className='about-text'>
-                        <h3>back-end</h3>
-                        <p>databases, secruity</p>
+                        <h3>Harvard CS50 Course</h3>
+                        <h4>Introduction to Computer Science</h4>
+                        <p>C | Python | Low level operations</p>
                         </div>
                     </li>  
                     <li className='about-item'>
-                    <img className='about-icon' src={error}></img>                        <div className='about-text'>
-                        <h3>testing</h3>
-                        <p>jest and rspec</p>
+                    <img className='about-icon' src={codingImg}></img>                        <div className='about-text'>
+                        <h3>LEARN Academy</h3>
+                        <h4>Full-Stack Web Developer course</h4>
+                        <p>Ruby on Rails | React</p>
                         </div>
-                    </li>  
+                    </li> 
+                    <li className='resume'>
+                        <h3>See my <a className='resume-link' href='https://coral-rubie-47.tiiny.site/' target='blank'>resume</a> for more</h3>
+                        <img className='qr-code' src={qrCode} />
+                    </li>
                 </ul>
             </div>
         </section>
