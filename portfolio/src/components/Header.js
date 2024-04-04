@@ -29,10 +29,10 @@ const Header = () => {
                         <a className='about' href='#about'>About</a>
                     </li>
                     <li>
-                        <a className='projects' href='#projects'>Projects</a>
+                        <a className='experience' href='#experience'>Experience</a>
                     </li>
                     <li>
-                        <a className='experience' href='#experience'>Experience</a>
+                        <a className='projects' href='#projects'>Projects</a>
                     </li>
                     <li>
                         <a className='contact' href='#contact'>Contact</a>

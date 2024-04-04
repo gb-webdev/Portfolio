@@ -1,6 +1,9 @@
 import React from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import linkedin from '../assets/linkedin.png'
+import gitHub from '../assets/github.png'
+import emailImg from '../assets/email-img.png'
 import './Contact.css'
 
 const Contact = () => {
@@ -23,6 +26,17 @@ const Contact = () => {
     return(
         <section className='contact-container' id='contact'>
             <h2 className='contact-header'>Contact Me</h2>
+            <div className='img-links'>
+                <a href='https://www.linkedin.com/in/graham-blundell/' target='blank'>
+                    <img className='contact-img' src={linkedin} />
+                </a>
+                <a href='https://github.com/gb-webdev' target='blank'>
+                    <img className='contact-img' src={gitHub} />
+                </a>
+                <a href='mailto:blundell.gp@gmail.com' target='blank'>
+                    <img className='contact-img' src={emailImg} />
+                </a>
+            </div>
             <div className='contact-content'>
                 <form className='email-form' ref={form} onSubmit={sendEmail}>
                     <input className='input-form' type='text' placeholder='Full Name...' name='user_name' required />

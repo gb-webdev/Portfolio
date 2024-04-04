@@ -1,0 +1,14 @@
+.links-imgs {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.link-img {
+    width: 40%;
+    height: auto;
+
+}
