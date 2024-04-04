@@ -1,3 +1,7 @@
+.link-container {
+    opacity: 100%;
+}
+
 .links-imgs {
     display: flex;
     flex-direction: row;
@@ -10,5 +14,4 @@
 .link-img {
     width: 40%;
     height: auto;
-
 }

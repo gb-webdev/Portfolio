@@ -7,7 +7,7 @@ import './Links.css'
 
 const Links = () => {
     return (
-        <div link-container>
+        <div className='link-container'>
             <div className='links-imgs'>
                 <a href='https://www.linkedin.com/in/graham-blundell/' target='blank'>
                     <img className='link-img' src={linkedin} />
