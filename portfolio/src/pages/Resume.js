@@ -7,4 +7,4 @@ const Resume = () => {
     )
 }
 
-export default transition(Resume)
+export default Resume

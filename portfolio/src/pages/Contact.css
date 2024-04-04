@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    font-size: larger;
+    font-size: 1.3rem;
 }
 
 .input-form {
@@ -30,6 +30,15 @@
     background-color: #032737;
 }
 
+.email-button {
+    &:hover {
+        color: #f57c00;
+    }
+}
+
 @media screen and (max-width: 830px) {
-    
+    .contact-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
