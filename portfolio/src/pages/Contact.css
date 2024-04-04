@@ -1,7 +1,7 @@
 .contact-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100vw;
     padding: 10%;
     color: #f7e8b4;
@@ -12,8 +12,21 @@
     font-weight: 600;
 }
 
+.img-links {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.contact-img {
+    width: 50%;
+    margin-top: 5%;
+}
+
 .email-form {
-    margin-top: 10%;
+    margin-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;

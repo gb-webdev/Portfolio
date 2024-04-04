@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10%;
+    margin-top: 5%;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -18,7 +18,8 @@
 
 .avatar-title {
     font-size: 3.2rem;
-    font-weight: 900;
+    font-weight: 700;
+    letter-spacing: 1px;
     margin-top: 5%;
     margin-bottom: 8%;
     background: linear-gradient(
@@ -106,10 +107,10 @@
 .avatar-topBlur {
     position: absolute;
     width: 55vw;
-    height: 60vh;
+    height: 50vh;
     min-width: 350px;
     min-width: 350px;
-    top: -138px;
+    top: -50px;
     left: 20vw;
     border-radius: 764px;
     background: rgba(68, 108, 182, 0.7);
