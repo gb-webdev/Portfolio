@@ -10,7 +10,7 @@ import bootstrap from '../assets/11-bootstrap.png'
 
 const Experience = () => {
     return (
-        <section className='experience-container' id='experience'>
+        <section className='experience-container' id='toolkit'>
             <h2 className='experience-title'>My Toolkit</h2>
             <div className='experience-content'>
                 <div className='experience-skills'>

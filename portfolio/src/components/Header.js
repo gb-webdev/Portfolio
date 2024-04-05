@@ -26,10 +26,10 @@ const Header = () => {
                 onClick={() => setmenuOpen(false)}
                 >
                     <li>
-                        <a className='about' href='#about'>About</a>
+                        <a className='experience' href='#experience'>Experience</a>
                     </li>
                     <li>
-                        <a className='experience' href='#experience'>Experience</a>
+                        <a className='about' href='#toolkit'>Tookit</a>
                     </li>
                     <li>
                         <a className='projects' href='#projects'>Projects</a>
