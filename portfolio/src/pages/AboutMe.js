@@ -8,7 +8,7 @@ import qrCode from '../assets/resume-QRCode.png'
 
 const AboutMe = () => {
     return (
-        <section className='about-container' id='about'>
+        <section className='about-container' id='experience'>
         <h2 className='about-title'>Experience</h2>
             <div className='about-content'>
                 <ul className='about-items'>
