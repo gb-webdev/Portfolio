@@ -22,13 +22,23 @@
     letter-spacing: 1px;
     margin-top: 5%;
     margin-bottom: 8%;
-    background: linear-gradient(
-        90deg,
-        rgba(247, 232, 180, 1) 70%,
-        rgba(255, 255, 255, 0) 120%
-        );
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    --x-offset: -0.0625em;
+    --y-offset: 0.0625em;
+    --stroke: 0.025em;
+    --background-color: rgb(3, 0, 0);
+    --stroke-color: lightblue;
+    
+    text-shadow: 
+      
+      var(--x-offset)
+      var(--y-offset)
+      0px
+      var(--background-color), 
+      
+      calc( var(--x-offset) - var(--stroke) )
+      calc( var(--y-offset) + var(--stroke) )
+      0px
+      var(--stroke-color);
 }
 
 .avatar-description {
