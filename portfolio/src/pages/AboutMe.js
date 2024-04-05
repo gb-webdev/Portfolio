@@ -31,7 +31,7 @@ const AboutMe = () => {
                     <img className='about-icon' src={codingImg}></img>                        <div className='about-text'>
                         <h3>LEARN Academy</h3>
                         <h4>Full-Stack Web Developer course</h4>
-                        <p>Ruby on Rails | React</p>
+                        <p>Ruby on Rails | React | RSpec | Jest</p>
                         </div>
                     </li> 
                     <li className='resume'>

@@ -21,7 +21,7 @@
 
 .about-icon {
     width: 40%;
-    padding-right: 5px;
+    margin-right: 5%;
 }
 
 .about-items {
@@ -74,6 +74,7 @@
 
 .qr-code {
     width: 40%;
+    padding-top: 5%;
 }
 
 @media screen and (max-width: 830px) {
@@ -112,6 +113,7 @@
 
         .about-icon {
             width: 60%;
+            margin-bottom: 5%;
         }
     }
 
