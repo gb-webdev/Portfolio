@@ -41,6 +41,12 @@
 .about, .projects, .experience, .contact {
     color: #f7e8b4;
     text-decoration: none;
+    transform: scale(1);
+    transition: 0.4s ease;
+     &:hover {
+        transform: scale(0.9);
+        transition: 0.4s ease;
+     }
 }
 
 .menu-btn {
