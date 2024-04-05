@@ -28,13 +28,13 @@ const Contact = () => {
             <h2 className='contact-header'>Contact Me</h2>
             <div className='img-links'>
                 <a href='https://www.linkedin.com/in/graham-blundell/' target='blank'>
-                    <img className='contact-img' src={linkedin} />
+                    <img className='contact-img1' src={linkedin} />
                 </a>
                 <a href='https://github.com/gb-webdev' target='blank'>
-                    <img className='contact-img' src={gitHub} />
+                    <img className='contact-img2' src={gitHub} />
                 </a>
                 <a href='mailto:blundell.gp@gmail.com' target='blank'>
-                    <img className='contact-img' src={emailImg} />
+                    <img className='contact-img3' src={emailImg} />
                 </a>
             </div>
             <div className='contact-content'>
