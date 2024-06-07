@@ -43,3 +43,27 @@
         transition: 0.4s ease;
      }
 }
+
+@media screen and (max-width: 2000px) {
+    .link-img1 {
+        width: 30%;
+    }
+    .link-img2 {
+        width: 30%;
+    }
+    .link-img3 {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .link-img1 {
+        width: 50%;
+    }
+    .link-img2 {
+        width: 50%;
+    }
+    .link-img3 {
+        width: 50%;
+    }
+}

@@ -21,7 +21,7 @@
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 5%;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
     --x-offset: -0.0625em;
     --y-offset: 0.0625em;
     --stroke: 0.025em;
@@ -80,11 +80,11 @@
 }
 
 .avatar-contact:hover {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
-  transform: translate3d(0, 2px, 0);
-  &:hover {
-    color: #f57c00;
-  }
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+    &:hover {
+        color: #f57c00;
+    }
 }
 
 .avatar-contact:focus {
@@ -142,16 +142,34 @@
     z-index: 0;
 }
 
-@media screen {
+@media screen and (max-width: 2000px) {
+    .avatar-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .avatar-img {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 830px) {
     .avatar-container {
         flex-direction: column-reverse;
     }
 
+
     .avatar-content {
         align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .avatar-img {
         width: 50%;
+    }
+
+    .avatar-contact {
+        text-align: center;
     }
 }

@@ -77,6 +77,15 @@
     padding-top: 5%;
 }
 
+@media screen and (max-width: 2000px) {
+    .about-icon {
+        max-width: 30%;
+    }
+    .qr-code {
+        width: 30%;
+    }
+}
+
 @media screen and (max-width: 830px) {
     .about-container {
         background-color: transparent;
@@ -99,6 +108,13 @@
     .about-item {
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    .about-icon {
+        max-width: 60%;
+    }
+    .qr-code {
+        width: 45%;
     }
 
     @media screen and (max-width: 480px) {
