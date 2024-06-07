@@ -3,33 +3,25 @@ import menu from '../assets/menu.png'
 import menuO from '../assets/menu-open.png'
 import './Header.css'
 
-
 const Header = () => {
-
-    const [menuOpen, setmenuOpen] = useState(false)
+    const [menuOpen, setMenuOpen] = useState(false)
 
     return (
         <nav className='header-nav'>
-            <a className='header-title' href='/'>Portfolio</a>
-            <div className='menu'>
-                <img
-                    className='menu-btn'
-                    src={
-                        menuOpen
-                            ? menuO
-                            : menu
-                        }
-                    alt='Menu button' 
-                    onClick={() => setmenuOpen(!menuOpen)}
-                />
-                <ul className={`header-nav-items ${menuOpen && 'menuOpen'}`}
-                onClick={() => setmenuOpen(false)}
-                >
+            <h1>&nbsp;</h1>
+            <img
+                className='menu-btn'
+                src={menuOpen ? menuO : menu}
+                alt='Menu button'
+                onClick={() => setMenuOpen(!menuOpen)}
+            />
+            <div className={`menu ${menuOpen && 'menuOpen'}`}>
+                <ul className='header-nav-items' onClick={() => setMenuOpen(false)}>
                     <li>
                         <a className='experience' href='#experience'>Experience</a>
                     </li>
                     <li>
-                        <a className='about' href='#toolkit'>Tookit</a>
+                        <a className='about' href='#toolkit'>Toolkit</a>
                     </li>
                     <li>
                         <a className='projects' href='#projects'>Projects</a>

@@ -53,7 +53,7 @@ const ProjectCard = () => {
                     alt='Image of the Quizard application'   
                 />
                 <h3 className='card-title'>Quizard</h3>
-                <p className='card-description'>A flashcard and quiz applicatiion, sprinkled with some game elements</p>
+                <p className='card-description'>A flashcard and quiz application, sprinkled with some game elements</p>
                 <ul className='card-skills'>
                     <li className='proj-skill'>Ruby on Rails</li>
                     <li className='proj-skill'>PostgreSQL</li>

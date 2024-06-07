@@ -78,9 +78,34 @@
     }
 }
 
+@media screen and (max-width: 4000px) {
+    .contact-img1 {
+        width: 35%;
+    }
+    
+    .contact-img2 {
+        width: 35%;
+    }
+    .contact-img3 {
+        width: 35%;
+    }
+
+}
+
 @media screen and (max-width: 830px) {
     .contact-container {
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    .contact-img1 {
+        width: 50%;
+    }
+    
+    .contact-img2 {
+        width: 50%;
+    }
+    .contact-img3 {
+        width: 50%;
     }
 }
