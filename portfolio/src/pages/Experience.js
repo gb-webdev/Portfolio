@@ -1,12 +1,11 @@
 import React from 'react'
 import './Experience.css'
-import jest from '../assets/11-jest.png'
 import postgres from '../assets/11-postgres.png'
 import rails from '../assets/11-rails.png'
 import reactImg from '../assets/11-react.png'
-import rspec from '../assets/11-rspec.png'
 import ruby from '../assets/11-ruby.png'
-import bootstrap from '../assets/11-bootstrap.png'
+import node from '../assets/11-node.png'
+import typescript from '../assets/11-typescript.png'
 
 const Experience = () => {
     return (
@@ -18,11 +17,9 @@ const Experience = () => {
                         <li className='skill'><img className='xp-img' src={reactImg} /></li>
                         <li className='skill'><img className='xp-img' src={ruby} /></li>
                         <li className='skill'><img className='xp-img2' src={rails} /></li>
-                        <li className='skill'><img className='xp-img' src={jest} /></li>
-                        <li className='skill'><img className='xp-img' src={rspec} /></li>
                         <li className='skill'><img className='xp-img' src={postgres} /></li>
-                        <li className='skill'><img className='xp-img' src={bootstrap} /></li>
-                    </ul>
+                        <li className='skill'><img className='xp-img' src={node} /></li>
+                        <li className='skill'><img className='xp-img' src={typescript} /></li>                    </ul>
                 </div>
             </div>
         </section>

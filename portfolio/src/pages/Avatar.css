@@ -95,7 +95,7 @@
 .avatar-img {
     width: 50%;
     z-index: 1;
-
+    max-width: 300px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -142,7 +142,7 @@
     z-index: 0;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 4000px) {
     .avatar-container {
         display: flex;
         flex-direction: column-reverse;
@@ -150,6 +150,7 @@
     
     .avatar-img {
         width: 25%;
+        max-width: 300px;
     }
 }
 
@@ -167,6 +168,7 @@
 
     .avatar-img {
         width: 50%;
+        max-width: 300px;
     }
 
     .avatar-contact {
