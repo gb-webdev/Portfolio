@@ -7,7 +7,7 @@ const Avatar = () => {
         <section className='avatar-container'>
             <div className='avatar-content' >
                 <h1 className='avatar-title'>Hi I'm Graham</h1>
-                <p className='avatar-description'>I'm a Full-Stack Developer in Ruby on Rails and React</p>
+                <p className='avatar-description'>I'm a Full-Stack Developer in Node | Ruby | Rails | React | PostgreSQL</p>
                 <a className='avatar-contact' href='#contact'>Contact me here</a>
             </div>
             <img className='avatar-img' src={avatarImage} alt='an Avatar of me'/>

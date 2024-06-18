@@ -4,7 +4,7 @@ import codingImg from '../assets/coding.png'
 import debug from '../assets/debug.png'
 import cdeImg from '../assets/coding2.png'
 import error from '../assets/error.png'
-import qrCode from '../assets/resume-QRCode.png'
+import qrCode from '../assets/QRCode.png'
 
 const AboutMe = () => {
     return (
@@ -35,7 +35,7 @@ const AboutMe = () => {
                         </div>
                     </li> 
                     <li className='resume'>
-                        <h3>See my <a className='resume-link' href='https://coral-rubie-47.tiiny.site/' target='blank'>resume</a> for more</h3>
+                        <h3>See my <a className='resume-link' href='https://graham-blundell-cv.tiiny.site/' target='blank'>resume</a> for more</h3>
                         <img className='qr-code' src={qrCode} />
                     </li>
                 </ul>
