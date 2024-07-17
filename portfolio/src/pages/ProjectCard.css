@@ -1,3 +1,10 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -8,6 +15,7 @@
     max-width: 700px;
     height: auto;
     margin-bottom: 5%;
+    cursor: pointer;
 }
 
 .proj-img {
@@ -48,31 +56,125 @@
     margin-bottom: 5px;
 }
 
-.card-links {
-    width: 100%;
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.proj-card-link {
+.see-more-btn {
     text-decoration: none;
     font-size: 1.2rem;
     padding: 1px 18px;
-    text-decoration: none;
     background-color: #032737;
     color: #f7e8b4;
     font-weight: 600;
-    padding: 5% 10%;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0, 25);
-    margin-bottom: 10%;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     align-self: center;
     background-image: none;
     background-position: 0 90%;
     background-repeat: repeat no-repeat;
     border-style: solid;
     border-width: 2px;
-    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    border-color: #f7e8b4;
+    box-shadow: rgba(0, 0, 0, .6) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 23px;
+    outline: none;
+    padding: 1rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 20px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.see-more-btn:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+    color: #f57c00;
+    border-color: #f57c00;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: linear-gradient(180deg, #14688c 0%, #084661 100%);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    color: #f7e8b4;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #f7e8b4;
+}
+
+.modal-gif {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.modal-skills {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.modal-skills li {
+    background-color: #032737;
+    color: #f7e8b4;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
+
+.modal-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.proj-card-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1px 18px;
+    background-color: #032737;
+    color: #f7e8b4;
+    font-weight: 600;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    align-self: center;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f7e8b4;
+    box-shadow: rgba(0, 0, 0, 0.6) 15px 28px 25px -18px;
     box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
@@ -93,17 +195,11 @@
 .proj-card-link:hover {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
   transform: translate3d(0, 2px, 0);
-  &:hover {
-    color: #f57c00;
-  }
-}
-
-.proj-card-link:focus {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  color: #f57c00;
+  border-color: #f57c00;
 }
 
 @media screen and (max-width: 830px) {
-
     .card {
         width: 90%;
         margin: 5% auto;
@@ -121,13 +217,14 @@
         justify-content: center;
     }
 
-    .card-links {
-        flex-direction: column;
-        align-items: center;
+    .modal-content {
+        max-width: 95%;
+        max-height: 95vh;
     }
 
-    .proj-card-link {
-        margin-bottom: 5%;
+    .modal-links {
+        flex-wrap: wrap;
+        gap: 10px;
     }
 }
 
@@ -148,8 +245,16 @@
         justify-content: center;
     }
     
-    .proj-card-link {
-        margin-bottom: 3%;
+    .modal-content {
+        padding: 10px;
     }
     
+    .modal-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .proj-card-link {
+        margin-bottom: 10px;
+    }
 }

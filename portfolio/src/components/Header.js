@@ -42,6 +42,9 @@ const Header = () => {
             <div className={`menu ${menuOpen && 'menuOpen'}`}>
                 <ul className='header-nav-items' onClick={() => setMenuOpen(false)}>
                     <li>
+                        <a className='avatar' href='#/'>↑↑↑</a>
+                    </li>
+                    <li>
                         <a className='experience' href='#experience'>Experience</a>
                     </li>
                     <li>

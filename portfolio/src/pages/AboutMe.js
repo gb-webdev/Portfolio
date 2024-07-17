@@ -1,7 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
 import codingImg from '../assets/coding.png'
-import debug from '../assets/debug.png'
 import cdeImg from '../assets/coding2.png'
 import error from '../assets/error.png'
 import qrCode from '../assets/QRCode.png'
