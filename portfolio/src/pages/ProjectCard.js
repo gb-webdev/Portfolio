@@ -6,6 +6,10 @@ import apartmentStill from '../assets/apss.png';
 import apartmentGif from '../assets/app.gif';
 import bladeBrawlerStill from '../assets/bbss.png';
 import bladeBrawlerGif from '../assets/samurai.gif';
+import notesStill from '../assets/note-ss.png';
+import notesGif from '../assets/notes.gif';
+import chefStill from '../assets/chef-ss.png';
+import chefGif from '../assets/chefs-choice.gif';
 import './ProjectCard.css';
 
 const ProjectCard = () => {
@@ -14,6 +18,15 @@ const ProjectCard = () => {
     const [imagesLoaded, setImagesLoaded] = useState(false);
 
     const projects = [
+        {
+            title: "Chef's Choice",
+            description: "A meal subscription app",
+            longDescription: "A meal Subscription App that offers a convenient way to plan and enjoy delicious, home-cooked meals. Choose from a variety of meal plans tailored to your dietary preferences and receive fresh, pre-portioned ingredients delivered to your door.",
+            skills: ["Node", "TypeScript, React, Express, Stripe"],
+            image: chefStill,
+            gif: chefGif,
+            sourceLink: "https://github.com/Developers-Challenge/Theta",
+        },
         {
             title: "Blade Brawler",
             description: "A 2d duel fighting game",
@@ -34,6 +47,15 @@ const ProjectCard = () => {
             backendSource: "https://github.com/learn-stack-rgb/quizard-backend",
             frontendSource: "https://github.com/learn-stack-rgb/quizard-frontend",
             liveLink: "https://quizard-u7md.onrender.com/"
+        },
+        {
+            title: "Notes App",
+            description: "A longterm Notes app project with many planned features",
+            longDescription: "The Notes App is a versatile tool for organizing your thoughts and tasks.",
+            skills: ["Node", "TypeScript", "React", "Express"],
+            image: notesStill,
+            gif: notesGif,
+            sourceLink: "https://github.com/gb-webdev/Notes"
         },
         {
             title: "Apartment Finder",
