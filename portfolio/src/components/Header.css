@@ -51,7 +51,15 @@
     transition: 0.4s ease;
 }
 
-.about:hover, .projects:hover, .experience:hover, .contact:hover {
+.avatar {
+color: #f7e8b4;
+font-weight: 600;
+text-decoration: none;
+transform: scale(1);
+transition: 0.4s ease;
+}
+
+.avatar:hover, .about:hover, .projects:hover, .experience:hover, .contact:hover {
     transform: scale(0.9);
     transition: 0.4s ease;
 }
