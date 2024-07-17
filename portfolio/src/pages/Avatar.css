@@ -21,25 +21,15 @@
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 5%;
-    margin-bottom: 5%;
-    --x-offset: -0.0625em;
-    --y-offset: 0.0625em;
-    --stroke: 0.025em;
-    --background-color: rgb(3, 0, 0);
-    --stroke-color: lightblue;
-    
-    text-shadow: 
-      
-      var(--x-offset)
-      var(--y-offset)
-      0px
-      var(--background-color), 
-      
-      calc( var(--x-offset) - var(--stroke) )
-      calc( var(--y-offset) + var(--stroke) )
-      0px
-      var(--stroke-color);
+    margin-bottom: 3%;
+        letter-spacing: 2px;
+        color: #f7e8b4;
+        text-shadow:
+        2px 2px 0 #032737,
+        4px 4px 0 #084661,
+        6px 6px 0 #032737;
 }
+
 
 .avatar-description {
     font-size: 2rem;

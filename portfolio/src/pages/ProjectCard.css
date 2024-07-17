@@ -46,19 +46,26 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2%;
     list-style: none;
-    justify-content: space-around;
+    justify-content: center;
     padding: 2px;
 }
 
 .proj-skill {
-    font-size: 1.2rem;
-    font-weight: 400;
-    border-radius: 100px;
-    background-color: #032737;
-    padding: 2px 22px;
-    margin-bottom: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #f7e8b4;
+    background: linear-gradient(135deg, #043950, #032737);
+    border: 1px solid #065475;
+    border-radius: 20px;
+    padding: 6px 14px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.proj-skill:hover {
+    background: linear-gradient(135deg, #032737, #043950);
+    border-color: #f7e8b4;
 }
 
 .see-more-btn {
@@ -124,6 +131,7 @@
     overflow-y: auto;
     position: relative;
     color: #f7e8b4;
+    align-items: center;
 }
 
 .close-button {
@@ -148,20 +156,31 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
 }
 
 .modal-skills li {
-    background-color: #032737;
+    font-size: 1.1rem;
+    font-weight: 600;
     color: #f7e8b4;
-    padding: 5px 10px;
-    border-radius: 15px;
-    font-size: 0.9rem;
+    background: linear-gradient(135deg, #043950, #032737);
+    border: 1px solid #065475;
+    border-radius: 20px;
+    padding: 6px 14px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.modal-skills li:hover {
+    background: linear-gradient(135deg, #032737, #043950);
+    border-color: #f7e8b4;
 }
 
 .modal-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 20px;
+    gap: 20px;
 }
 
 .proj-card-link {
@@ -198,10 +217,10 @@
 }
 
 .proj-card-link:hover {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
-  transform: translate3d(0, 2px, 0);
-  color: #f57c00;
-  border-color: #f57c00;
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+    color: #f57c00;
+    border-color: #f57c00;
 }
 
 @media screen and (max-width: 830px) {
@@ -216,6 +235,10 @@
         width: 100%;
         height: auto;
         margin-bottom: 3%;
+    }
+
+    .proj-skill {
+        font-size: 1rem;
     }
 
     .card-skills {
@@ -246,19 +269,23 @@
         margin-bottom: 3%;
     }
 
+    .proj-skill {
+        font-size: 0.9rem;
+    }
+
     .card-skills {
         justify-content: center;
     }
-    
+
     .modal-content {
         padding: 10px;
     }
-    
+
     .modal-links {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .proj-card-link {
         margin-bottom: 10px;
     }
