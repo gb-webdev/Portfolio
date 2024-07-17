@@ -22,7 +22,7 @@ const ProjectCard = () => {
             title: "Chef's Choice",
             description: "A meal subscription app",
             longDescription: "A meal Subscription App that offers a convenient way to plan and enjoy delicious, home-cooked meals. Choose from a variety of meal plans tailored to your dietary preferences and receive fresh, pre-portioned ingredients delivered to your door.",
-            skills: ["Node", "TypeScript", "React", "Express", "Stripe"],
+            skills: ["Node", "TypeScript", "React", "Express", "MongoDB"],
             image: chefStill,
             gif: chefGif,
             sourceLink: "https://github.com/Developers-Challenge/Theta",

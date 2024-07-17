@@ -27,7 +27,7 @@
 .about-items {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 5px;
 }
 
 .about-item {
@@ -112,6 +112,7 @@
 
     .about-icon {
         max-width: 60%;
+        margin-bottom: 5%;
     }
     .qr-code {
         width: 45%;
